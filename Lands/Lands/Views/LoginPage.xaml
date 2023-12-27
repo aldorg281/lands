@@ -85,14 +85,14 @@
                 Orientation="Horizontal" 
                 VerticalOptions="CenterAndExpand">
                 <Button 
-                BackgroundColor="Navy"
-                BorderRadius="23"
-                Command="{Binding LoginCommand}"
-                HeightRequest="46"
-                HorizontalOptions="FillAndExpand" 
-                IsEnabled="{Binding IsEnabled,Mode=TwoWay}"
-                Text="Login"
-                TextColor="White"                
+                    BackgroundColor="Navy"
+                    BorderRadius="23"
+                    Command="{Binding LoginCommand}"
+                    HeightRequest="46"
+                    HorizontalOptions="FillAndExpand" 
+                    IsEnabled="{Binding IsEnabled,Mode=TwoWay}"
+                    Text="Login"
+                    TextColor="White"                
             >
                 </Button>
                 <Button 
@@ -112,9 +112,9 @@
                 VerticalOptions="EndAndExpand"
             >
                 <Image
-                Source="facebook_logo"
-                WidthRequest="100"
-                >
+                    Source="facebook_logo"
+                    WidthRequest="100">
+                    
                 </Image>
                 <Image
                 Source="twitter_logo"

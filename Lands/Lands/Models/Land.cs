@@ -57,6 +57,10 @@
         [JsonProperty(PropertyName = "numericCode")]
         public string NumericCode { get; set; }
 
+
+        [JsonProperty(PropertyName = "flag")]
+        public string Flag { get; set; }
+        
         //[JsonProperty(PropertyName = "flags")]
         ////public string Flags { get; set; }
         //public List<Flags> Flags { get; set; }

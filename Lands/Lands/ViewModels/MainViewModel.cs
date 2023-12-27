@@ -1,11 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Lands.ViewModels
 {
+    using System.Collections.Generic;
+    using Models;
     class MainViewModel
     {
+        #region Properties
+        public List<Land> LandsList
+        {
+            get;
+            set;
+        }
+
+        public TokenResponse Token
+        {
+            get;
+            set;
+        }
+        #endregion
+
+
         #region ViewModels
         public LoginViewModel Login
         {
@@ -14,6 +28,11 @@ namespace Lands.ViewModels
         }
 
         public LandsViewModel Lands
+        {
+            get;
+            set;
+        }
+        public LandViewModel Land
         {
             get;
             set;
